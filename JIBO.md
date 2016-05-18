@@ -14,3 +14,10 @@ Disable 并卸载jibo-sdk ，重新用atom安装，刷新页面
 >**Error：Platform version check failed! Skill allows version >=0.12.0 but your current version is 0.11.1.
 
 联系Jibo技术人员，降低SDk版本，或者升级系统
+
+## 4.连接不到
+>**Could not connect to Netposa. Make sure the robot is turned on.
+
+原因可能是：1.未开机 2.刚开机还没连接到 3.系统更新（都无法打开Body Service网页).
+
+
