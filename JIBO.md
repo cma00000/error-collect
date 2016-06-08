@@ -27,6 +27,27 @@ JIBO回复：目前尚不支持UTF-8字符编码（2016-06-07）
 >**
 
 JIBO回复：可根据大家需求，考虑以后添加新的命令支持。
+## 7.SKILL创建在sdk为1.2.7以前版本
+>**
+Update a skill to the newest APIs
+
+If your skill was created with jibo-sdk v1.2.7 or earlier, you may need to update to fuzzy versioning first. See the next section for instructions.
+
+Open your command line interface.
+Change directories to your skill's top-level folder.
+Run: npm install
+Click View > Developer > Reload Window on the Atom toolbar to refresh your skill.
+Update an old skill to use fuzzy versioning
+
+If your skill was created with jibo-sdk v1.2.7 or earlier:
+
+Open the skill you want to update.
+If you do not see the Project pane, click View > Toggle Tree View.
+Click package.json at the bottom of the Project pane to open it.
+In the dependencies node, change the jibo version to ^3.0.0 to use fuzzy versioning. You will no longer have to manually update this dependency when updating this skill.
+For example, change: "jibo": "2.0.5" to: "jibo": "^3.0.0"
+Run: npm install
+Click View > Developer > Reload Window on the Atom toolbar to refresh your skill.
 
 
 
