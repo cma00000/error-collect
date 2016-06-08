@@ -19,5 +19,14 @@ Disable 并卸载jibo-sdk ，重新用atom安装，刷新页面
 >**Could not connect to Netposa. Make sure the robot is turned on.
 
 原因可能是：1.未开机 2.刚开机还没连接到 3.系统更新（都无法打开Body Service网页).
+## 5.中文character
+>**中文字库没有，可以在模拟器中引入webfont， 但是依旧无法在真机显示。
+
+JIBO回复：目前尚不支持UTF-8字符编码（2016-06-07）
+## 6.jibo-cli删除上传文件的命令
+>**
+
+JIBO回复：可根据大家需求，考虑以后添加新的命令支持。
+
 
 
