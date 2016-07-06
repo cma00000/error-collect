@@ -27,6 +27,9 @@ JIBO回复：目前尚不支持UTF-8字符编码（2016-06-07）
 >**
 
 JIBO回复：可根据大家需求，考虑以后添加新的命令支持。
+## 6.1.jibo-cli查看剩余存储空间的命令
+
+df -h
 ## 7.SKILL创建在sdk为1.2.7以前版本
 >**
 Update a skill to the newest APIs
@@ -49,5 +52,9 @@ For example, change: "jibo": "2.0.5" to: "jibo": "^3.0.0"
 Run: npm install
 Click View > Developer > Reload Window on the Atom toolbar to refresh your skill.
 
+## 8.使用jibo.lps.setPreview()时的报错
+>**e is not a function.
+
+待解决
 
 
