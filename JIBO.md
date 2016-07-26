@@ -57,4 +57,9 @@ Click View > Developer > Reload Window on the Atom toolbar to refresh your skill
 
 待解决
 
+## 9.使用Parallel Behavior其中一个为循环,完成另一项即可结束
+>**
+
+Behavior Arguments: succeedOnOne.
+
 
