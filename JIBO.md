@@ -62,4 +62,7 @@ Click View > Developer > Reload Window on the Atom toolbar to refresh your skill
 
 Behavior Arguments: succeedOnOne.
 
+## 10.获取Jibo序列号，或本地ip
+>**
+
 
